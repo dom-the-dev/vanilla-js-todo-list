@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #00c3ff;
+}
+
+.todolist {
+  width: 400px;
+  margin: 150px auto 0 auto;
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 22px;
+}
+
+.box {
+  border-radius: 3px;
+  padding: 5px;
+  margin: 15px 0;
+  background-color: #ffffff;
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  font-size: 22px;
+}
+
+.addItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list--done {
+  color: grey;
+}
+
+.listElement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 22px;
+  width: 100%;
+  border: none;
+  padding: 7px 12px;
+  outline: none;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid transparent;
+}
+
+.listElement.error {
+  border-bottom-color: red;
+}
+
+.listElement:first-of-type {
+  border-top-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */

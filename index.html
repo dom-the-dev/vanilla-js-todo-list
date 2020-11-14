@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="todolist">
+      <h1 class="title">Doms Todo List</h1>
+
+      <div class="box addItem">
+        <input
+          id="js-input"
+          class="listElement"
+          name="add-item"
+          placeholder="Add new"
+        />
+        <button id="js-add" class="" for="add-item">Add</button>
+      </div>
+
+      <div class="box">
+        <h2 class="subtitle">Things to get done:</h2>
+        <ul id="js-list-todo" class="list"></ul>
+      </div>
+
+      <div class="box">
+        <h3 class="subtitle">Already done:</h3>
+        <ul id="js-list-done" class="list list--done"></ul>
+      </div>
+    </form>
+    <script src="js/script.js"></script>
+  </body>
+</html>
